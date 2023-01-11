@@ -419,6 +419,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1299994131}
   - component: {fileID: 1299994130}
+  - component: {fileID: 1299994133}
+  - component: {fileID: 1299994132}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -486,10 +488,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299994129}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.15, y: -0.81, z: 0}
+  m_LocalPosition: {x: -5.15, y: -0.81, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299994132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299994129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7629617ba74af0d4187fc742ef3bb26e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasGun: 0
+  hasSword: 0
+  hasStick: 0
+  gunDamage: 0
+  swordDamage: 0
+  stickDamage: 0
+--- !u!114 &1299994133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299994129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 926478de27f290a44b323f61e6f97962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canRun: 0
+  canDash: 0
+  canJump: 0
+  canMove: 0
+  canCrouch: 0
+  runSpeed: 0
+  dashSpeed: 0
+  jumpForce: 0
+  movementSpeed: 0
+  crouchSppeed: 0
