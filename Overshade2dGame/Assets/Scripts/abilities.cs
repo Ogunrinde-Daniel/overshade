@@ -19,5 +19,17 @@ public class abilities : MonoBehaviour
     public float jumpForce = 0f;
     public float movementSpeed = 0f;
     public float crouchSppeed = 0f;
+
+
+    public Rigidbody2D rb;
+    private Vector2 moveDirection;
     
+
+
+    void Update()
+    {
+        float move = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(movementSpeed * move, rb.velocity.y);
+    }
+
 }
