@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Vector2 lastCheckPointPosition;             //stores the last CheckPoint the player has passed
     [SerializeField] private bool playerDead = false;
     [SerializeField] private GameObject healthBarSlider;
+    [SerializeField] private LayerMask enemyLayermask;
 
     void Start()
     {
@@ -22,6 +23,10 @@ public class Player : MonoBehaviour
         {
             respawn();
             return;
+        }
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            attackEnemy();
         }
         healthBarSlider.GetComponent<Slider>().value = GetComponent<PlayerEntity>().health / GetComponent<PlayerEntity>().maxHealth;
     }
@@ -38,10 +43,15 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Dangerous"))
         {
-            //this line is only for demonstration, the reducetion value should be stored in a proper variable
-            GetComponent<PlayerEntity>().health -= GetComponent<PlayerEntity>().maxHealth / 2;
-            if (GetComponent<PlayerEntity>().health <= 0) playerDead = true;
+            dealDamage(GetComponent<PlayerEntity>().maxHealth / 2);
+
         }
+    }
+
+    public void dealDamage(float damage)
+    {
+        GetComponent<PlayerEntity>().health -= damage;
+        if (GetComponent<PlayerEntity>().health <= 0) playerDead = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -51,6 +61,21 @@ public class Player : MonoBehaviour
             //if this checkPoint is further than the prevoius checkpoint | reset cehckpoint
             if(collision.GetComponent<Rigidbody2D>().position.x > lastCheckPointPosition.x)
                 lastCheckPointPosition = collision.GetComponent<Rigidbody2D>().position;
+        }
+
+        if (collision.gameObject.CompareTag("Dangerous"))
+        {
+            dealDamage(GetComponent<PlayerEntity>().maxHealth / 2);
+        }
+    }
+
+    private void attackEnemy()
+    {
+        var enemies = Physics2D.BoxCast(transform.position, GetComponent<BoxCollider2D>().size, 0, Vector2.right, 1.0f, enemyLayermask);
+        if(enemies == true)
+        {
+
+            enemies.rigidbody.GetComponent<enemy1behavior>().TakeDamage(10);
         }
     }
 }

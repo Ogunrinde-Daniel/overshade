@@ -1,5 +1,6 @@
 Using pre-set license
 Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
+
 OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 15742 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
@@ -11,6 +12,7 @@ C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+
 C:/Users/Mahfuz/Documents/GitHub/overshade/Overshade2dGame
 -logFile
 Logs/AssetImportWorker1.log
@@ -47,6 +49,7 @@ C:/Users/Mahfuz/Documents/GitHub/overshade/Overshade2dGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+
 Player connection [19104] Host "[IP] 10.0.0.48 [Port] 0 [Flags] 2 [Guid] 91143143 [EditorId] 91143143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SDV09NL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [19104] Host "[IP] 10.0.0.48 [Port] 0 [Flags] 2 [Guid] 91143143 [EditorId] 91143143 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SDV09NL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -67,6 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -85,6 +89,7 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
+
 			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (100ms)
@@ -106,9 +111,9 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mahfuz\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Mahfuz\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.674 seconds
@@ -124,6 +129,7 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
+
 		LoadAllAssembliesAndSetupDomain (495ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -166,7 +172,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
+
 Received Import Request.
   Time since last request: 1494.340918 seconds.
   path: Assets/Scenes/CSMenu.unity
@@ -174,7 +180,6 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Scenes/CSMenu.unity using Guid(6f44d5638666ecb4ca25e5f2f85a8beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f4150d8582d6e54faecbef4517b3e6') in 0.006849 seconds 
 Number of asset objects unloaded after import = 0
-========================================================================
 Received Import Request.
   Time since last request: 49.262623 seconds.
   path: Assets/Pixel Adventure 1/Assets/CharacterMenu/New Project (1).png
@@ -182,7 +187,7 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Pixel Adventure 1/Assets/CharacterMenu/New Project (1).png using Guid(c5a037d408519c14eab86b3ef6c5b3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524683da33b2acbb3fb4a446e53199b4') in 0.110218 seconds 
 Number of asset objects unloaded after import = 3
-========================================================================
+
 Received Import Request.
   Time since last request: 0.000019 seconds.
   path: Assets/Pixel Adventure 1/Assets/CharacterMenu/New Project (2).png
