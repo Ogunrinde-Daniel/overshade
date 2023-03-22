@@ -15,7 +15,7 @@ C:/Users/KAT/Documents/GitHub/overshade/Overshade2dGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49515
+56028
 Successfully changed project path to: C:/Users/KAT/Documents/GitHub/overshade/Overshade2dGame
 C:/Users/KAT/Documents/GitHub/overshade/Overshade2dGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/KAT/Documents/GitHub/overshade/Overshade2dGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27740] Host "[IP] 10.153.224.163 [Port] 0 [Flags] 2 [Guid] 53983060 [EditorId] 53983060 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21128] Host "[IP] 10.153.224.223 [Port] 0 [Flags] 2 [Guid] 3484080553 [EditorId] 3484080553 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27740] Host "[IP] 10.153.224.163 [Port] 0 [Flags] 2 [Guid] 53983060 [EditorId] 53983060 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21128] Host "[IP] 10.153.224.223 [Port] 0 [Flags] 2 [Guid] 3484080553 [EditorId] 3484080553 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 35.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1298.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015432 seconds.
-- Loaded All Assemblies, in  0.888 seconds
+Registered in 0.092972 seconds.
+- Loaded All Assemblies, in  4.930 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.827 seconds
+- Finished resetting the current domain, in  0.288 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (4363ms)
+		BeginReloadAssembly (3853ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (223ms)
+			LoadAssemblies (3846ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
-				TypeCache.Initialize (339ms)
-					TypeCache.ScanAssembly (337ms)
+			SetupTypeCache (558ms)
+				TypeCache.Initialize (558ms)
+					TypeCache.ScanAssembly (556ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (678ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (17ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (484ms)
-				ProcessInitializeOnLoadMethodAttributes (156ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\KAT\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\KAT\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.564 seconds
-Refreshing native plugins compatible for Editor in 11.14 ms, found 4 plugins.
+- Loaded All Assemblies, in  7.397 seconds
+Refreshing native plugins compatible for Editor in 6.95 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.259 seconds
+- Finished resetting the current domain, in  1.728 seconds
 Domain Reload Profiling:
-	ReloadAssembly (333ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (225ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		LoadAllAssembliesAndSetupDomain (1223ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (7164ms)
+			LoadAssemblies (6254ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1131ms)
-				TypeCache.Initialize (636ms)
-					TypeCache.ScanAssembly (626ms)
-				ResolveRequiredComponents (11ms)
+			SetupTypeCache (956ms)
+				TypeCache.Initialize (691ms)
+					TypeCache.ScanAssembly (687ms)
+				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (933ms)
+			SetupLoadedEditorAssemblies (1539ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (24ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (206ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (1067ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 9.00 ms, found 4 plugins.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4427 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (145.5 KB). Loaded Objects now: 4885.
 Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 5.806400 ms (FindLiveObjects: 0.485200 ms CreateObjectMapping: 0.673100 ms MarkObjects: 4.497400 ms  DeleteObjects: 0.149600 ms)
+Total: 4.302400 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.532100 ms MarkObjects: 3.291800 ms  DeleteObjects: 0.110000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -166,242 +166,60 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 548926.628910 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_1.asset
-  artifactKey: Guid(bbdc57df3ec97d84daa4cceb0640e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_1.asset using Guid(bbdc57df3ec97d84daa4cceb0640e9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3ce431ad62ab7af10bcfb126db65aa') in 0.227045 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_37.asset
-  artifactKey: Guid(2571b6cf08d9e5f459576d152c294422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_37.asset using Guid(2571b6cf08d9e5f459576d152c294422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f815ccda05a199e9c89139505f056') in 0.026730 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_40.asset
-  artifactKey: Guid(98777ada5e8becf4a8b77ef9a0a3faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_40.asset using Guid(98777ada5e8becf4a8b77ef9a0a3faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376c9d9691d131fc522b72502e3bdb1c') in 0.020305 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_22.asset
-  artifactKey: Guid(9caed88fd7d17a243b3eaf37a9430cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_22.asset using Guid(9caed88fd7d17a243b3eaf37a9430cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e37f4aebc8a7a4e87226a90b361503') in 0.019856 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_4.asset
-  artifactKey: Guid(9aafea55bd88b014aa3e7f4bbc8f0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_4.asset using Guid(9aafea55bd88b014aa3e7f4bbc8f0365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd851207eac3357ed13532eaa220f156') in 0.019682 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_9.asset
-  artifactKey: Guid(c31b54018e4c2064599c3033a5167ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_9.asset using Guid(c31b54018e4c2064599c3033a5167ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b26a84b0b768138ca185e3b15b2d5f5') in 0.020240 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_45.asset
-  artifactKey: Guid(ce838cec4e8cdfe408f49c545160da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_45.asset using Guid(ce838cec4e8cdfe408f49c545160da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b184ecbc74c6dcafba6cbed62dbb772') in 0.020143 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_31.asset
-  artifactKey: Guid(3d526e17c2c3e0c419aca8d041adb641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_31.asset using Guid(3d526e17c2c3e0c419aca8d041adb641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fad8d282b1301f127897e79e890f02') in 0.021918 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_5.asset
-  artifactKey: Guid(e45b197c7a1757b4d8b4714905096ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_5.asset using Guid(e45b197c7a1757b4d8b4714905096ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27bf8f8cb217d29ee9a62331f276dc6') in 0.017999 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_18.asset
-  artifactKey: Guid(8977dd369a0b5124a84dfd2042398944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_18.asset using Guid(8977dd369a0b5124a84dfd2042398944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82002a675e96dca31066c6361798a38b') in 0.018334 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_51.asset
-  artifactKey: Guid(ac24288b5a30c5742b102c4d167d4768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_51.asset using Guid(ac24288b5a30c5742b102c4d167d4768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baad22d10062b7603e9051dc236ea370') in 0.017733 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_30.asset
-  artifactKey: Guid(ec5657a0ea1bafc4aa0985495214628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_30.asset using Guid(ec5657a0ea1bafc4aa0985495214628b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe1f0b7a226a9f8dc0a4789d4619b7a') in 0.017197 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_15.asset
-  artifactKey: Guid(2cd34fae12e1fe545993c0836d80a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_15.asset using Guid(2cd34fae12e1fe545993c0836d80a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7325e693293652cd0709a8db6d42ba5f') in 0.018238 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_24.asset
-  artifactKey: Guid(2be0aeef4192aed40a3cd9c3d89e50b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_24.asset using Guid(2be0aeef4192aed40a3cd9c3d89e50b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf58b3fbc15e9571f2205fdfc134993') in 0.016761 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_60.asset
-  artifactKey: Guid(5009a4a384ba80c41956618b29cefec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_60.asset using Guid(5009a4a384ba80c41956618b29cefec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5f677f0670055a800934c4b1c159d') in 0.021179 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_6.asset
-  artifactKey: Guid(983ba88f7f857f444ba977f86b570f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_6.asset using Guid(983ba88f7f857f444ba977f86b570f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da04b6077ed33296537ac8224651f1e4') in 0.037073 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_14.asset
-  artifactKey: Guid(4111e071d696c4b459afe3ec3c38f32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_14.asset using Guid(4111e071d696c4b459afe3ec3c38f32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0dab420b491db04e3f71ced52b951a') in 0.019063 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_49.asset
-  artifactKey: Guid(17332fac7661411448b1affae1a4c262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_49.asset using Guid(17332fac7661411448b1affae1a4c262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23c7de40f9bd5e25fc9af966c07372a') in 0.021456 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_13.asset
-  artifactKey: Guid(5fbc369d45e478246b8ae9046a8f5592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_13.asset using Guid(5fbc369d45e478246b8ae9046a8f5592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b970aaf89c50f82cd949f1bc18b8fb2') in 0.024822 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_42.asset
-  artifactKey: Guid(6066785cf76a3ad4d8a72d4536fe870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_42.asset using Guid(6066785cf76a3ad4d8a72d4536fe870d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51d5233414ddac3d61cc62c6d56fdd7') in 0.019630 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_27.asset
-  artifactKey: Guid(ae9252e607b85bd408162a73b957faa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_27.asset using Guid(ae9252e607b85bd408162a73b957faa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836deb62485dcd9e44bb3052605ff39b') in 0.018466 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_56.asset
-  artifactKey: Guid(9f0e168974daa2948bc19faaed26b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_56.asset using Guid(9f0e168974daa2948bc19faaed26b63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c157bf52d05af0b2987a8abbe54058e5') in 0.017777 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_25.asset
-  artifactKey: Guid(67183cd3ab95d0d4d85547bfd5e816d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_25.asset using Guid(67183cd3ab95d0d4d85547bfd5e816d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2b05060e763e51cde72dec00397211') in 0.029421 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_16.asset
-  artifactKey: Guid(f97eddc3be5a97041b581ade378e5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_16.asset using Guid(f97eddc3be5a97041b581ade378e5b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3834619cbe533325bc7f4aa8e1bfed6') in 0.022178 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_50.asset
-  artifactKey: Guid(dcce158415b919a4f8ee64ca0a76a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_50.asset using Guid(dcce158415b919a4f8ee64ca0a76a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cebd7634330f59206ff800fb64c192') in 0.022624 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_54.asset
-  artifactKey: Guid(92bd436b2396cc8429d03c2f6cc6fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_54.asset using Guid(92bd436b2396cc8429d03c2f6cc6fe1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78409acb08f2920df4bf681f63ff860') in 0.020222 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_52.asset
-  artifactKey: Guid(d4788174b38bb7945a03a6a66f809cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_52.asset using Guid(d4788174b38bb7945a03a6a66f809cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8985a999ae4b0c04750f3c2231980bef') in 0.023526 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_48.asset
-  artifactKey: Guid(630b87dbf08a9f442b2b4748520a2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_48.asset using Guid(630b87dbf08a9f442b2b4748520a2255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7715aa41fa5f6642e022130bbbdcd2') in 0.022317 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_2.asset
-  artifactKey: Guid(ebb80d8177d53564f907bf803b90a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_2.asset using Guid(ebb80d8177d53564f907bf803b90a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c8c9e631f15ad14aa707b360c0b789') in 0.019686 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_46.asset
-  artifactKey: Guid(0093a46e2b7e9c040bc1a45e15b293ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Pixel Adventure 1/Assets/Terrain/testi/Terrain (16x16) 1_46.asset using Guid(0093a46e2b7e9c040bc1a45e15b293ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09890790fa3a5e20003aca866481ca5') in 0.022192 seconds 
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\KAT\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\KAT\Documents\GitHub\overshade\Overshade2dGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.704 seconds
+Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (206ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (493ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+				TypeCache.Initialize (236ms)
+					TypeCache.ScanAssembly (230ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4416 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (117.5 KB). Loaded Objects now: 4900.
+Memory consumption went from 0.65 GB to 0.65 GB.
+Total: 4.467800 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.551000 ms MarkObjects: 3.284300 ms  DeleteObjects: 0.144600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
