@@ -10,6 +10,7 @@ public class MovementAbilities : MonoBehaviour
 
     private float directionX = 0f;
     public float movementSpeed = 0f;
+    private bool landed = false;
     [Range(1,5)]public float dashScale = 0f; //how much to multiply the moveSpeed by (1 maintains the speed, 5 multiplies it by 5)
     private enum MovementState { IDLE, RUNNING, JUMPING, FALLING, }
     private MovementState state;
@@ -72,7 +73,7 @@ public class MovementAbilities : MonoBehaviour
         if (rb.velocity.y > 0.1f)
         {
             state = MovementState.JUMPING;
-
+            
 
         }
         if (rb.velocity.y < -0.1f)
@@ -83,7 +84,7 @@ public class MovementAbilities : MonoBehaviour
 
         }
 
-        Debug.Log(state);
+        //Debug.Log(state);
         animator.SetInteger("state", (int)state);
         //crouch
         if (Input.GetButtonDown("Crouch")) crouchPrompt = true;
