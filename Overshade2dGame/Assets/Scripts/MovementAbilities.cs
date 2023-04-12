@@ -14,11 +14,14 @@ public class MovementAbilities : MonoBehaviour
     [Range(1,5)]public float dashScale = 0f; //how much to multiply the moveSpeed by (1 maintains the speed, 5 multiplies it by 5)
     private enum MovementState { IDLE, RUNNING, JUMPING, FALLING, }
     private MovementState state;
-    private bool jumpPrompt = false;
+    public bool jumpPrompt = false;
     private bool crouchPrompt = false;
     private Animator animator;
     private Rigidbody2D rb;
     private CharacterController2D controller; //an external script for smooth movement
+
+    public AudioSource jump;
+    public AudioSource walk;
 
     private void Start()
     {
@@ -49,14 +52,16 @@ public class MovementAbilities : MonoBehaviour
         directionX = Input.GetAxisRaw("Horizontal") * movementSpeed;
         if (directionX != 0f)
         {
-
             state = MovementState.RUNNING;
-
+            if (controller.m_Grounded)
+                walk.UnPause();
+            else
+                walk.Pause();
         }
         else
         {
             state = MovementState.IDLE;
-
+            walk.Pause();
 
         }
         /*if (directionX == 0f && controller.m_Grounded == true)
@@ -68,9 +73,13 @@ public class MovementAbilities : MonoBehaviour
         }*/
 
         //jump
-        if (Input.GetButtonDown("Jump")) jumpPrompt = true;
+        if (Input.GetButtonDown("Jump"))
+        {
+            jumpPrompt = true;
+            jump.Play();
+        }
 
-        if (rb.velocity.y > 0.1f)
+            if (rb.velocity.y > 0.1f)
         {
             state = MovementState.JUMPING;
             
