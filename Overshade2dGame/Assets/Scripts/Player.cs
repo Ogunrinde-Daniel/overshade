@@ -46,6 +46,11 @@ public class Player : MonoBehaviour
             dealDamage(GetComponent<PlayerEntity>().maxHealth / 2);
 
         }
+
+        if (collision.gameObject.CompareTag("death"))
+        {
+            dealDamage(GetComponent<PlayerEntity>().maxHealth);
+        }
     }
 
     public void dealDamage(float damage)
@@ -66,6 +71,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Dangerous"))
         {
             dealDamage(GetComponent<PlayerEntity>().maxHealth / 2);
+        }
+
+        if (collision.gameObject.CompareTag("death"))
+        {
+            dealDamage(GetComponent<PlayerEntity>().maxHealth);
         }
     }
 
