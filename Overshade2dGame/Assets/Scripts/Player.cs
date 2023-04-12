@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     [SerializeField] private bool playerDead = false;
     [SerializeField] private GameObject healthBarSlider;
     [SerializeField] private LayerMask enemyLayermask;
-
+    public AudioSource lose;
     void Start()
     {
         //if the player should die before reaching a checkPoint, he will respawn at his start position
@@ -56,9 +56,13 @@ public class Player : MonoBehaviour
     public void dealDamage(float damage)
     {
         GetComponent<PlayerEntity>().health -= damage;
-        if (GetComponent<PlayerEntity>().health <= 0) playerDead = true;
-    }
+        if (GetComponent<PlayerEntity>().health <= 0)
+        {
+            playerDead = true;
+            lose.Play();
 
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("CheckPoint"))

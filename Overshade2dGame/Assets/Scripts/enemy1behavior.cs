@@ -24,7 +24,7 @@ public class enemy1behavior : MonoBehaviour
     public bool targetInRange = false;
     [SerializeField]private GameObject target;
     [SerializeField] private LayerMask layer;
-
+    public AudioSource hit;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -105,6 +105,7 @@ public class enemy1behavior : MonoBehaviour
         else {
             Debug.Log("owie");
             animator.SetTrigger("hit");
+            hit.Play(); 
         }
 
     }
