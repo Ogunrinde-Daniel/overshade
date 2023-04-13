@@ -21,10 +21,12 @@ public class bullet : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Light"))
+            return;
         attackEnemy();
         anim.SetTrigger("explode");
         rb.velocity = transform.right * 0;
-        Debug.Log("Colliding with: " + collision.gameObject.name);
+        Debug.Log("<color = red>Colliding with: " + collision.gameObject.name);
         Invoke(nameof(bulletkill), 0.6f);
        
     }

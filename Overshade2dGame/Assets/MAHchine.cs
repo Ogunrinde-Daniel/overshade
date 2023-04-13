@@ -16,11 +16,10 @@ public class MAHchine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) 
+        if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.B)) 
         {
             anim.SetTrigger("shot");
             shoot();
-        
         
         }
         

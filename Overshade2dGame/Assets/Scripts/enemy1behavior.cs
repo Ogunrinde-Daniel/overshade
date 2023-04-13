@@ -25,6 +25,8 @@ public class enemy1behavior : MonoBehaviour
     [SerializeField]private GameObject target;
     [SerializeField] private LayerMask layer;
     public AudioSource hit;
+
+    private bool dead = false;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -36,18 +38,21 @@ public class enemy1behavior : MonoBehaviour
 
     void FixedUpdate()
     {
-       /* RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.right, out hit))
-        {
-            // Check if the object hit has the "Player" layer or tag
-            if (hit.collider.gameObject.CompareTag("Player"))
-            {
-                targetInRange = true;
-                Debug.Log("Hit player!");
-                // Do something when the player is hit
-            }
-            else { targetInRange = false; }
-        }*/
+        /* RaycastHit hit;
+         if (Physics.Raycast(transform.position, transform.right, out hit))
+         {
+             // Check if the object hit has the "Player" layer or tag
+             if (hit.collider.gameObject.CompareTag("Player"))
+             {
+                 targetInRange = true;
+                 Debug.Log("Hit player!");
+                 // Do something when the player is hit
+             }
+             else { targetInRange = false; }
+         }*/
+
+        if (dead)
+            return;
 
         if(IsGrounded() == true) { targetInRange = true; } else { targetInRange = false; }
         if (targetInRange)
@@ -98,6 +103,7 @@ public class enemy1behavior : MonoBehaviour
 
         if (health <= 0)
         {
+            dead = true;
             animator.SetBool("walking", false);
             animator.SetTrigger("death");
             Invoke(nameof(deletePlayer), 1.0f);
@@ -135,8 +141,8 @@ public class enemy1behavior : MonoBehaviour
 
             }
             else { color = Color.red; }
-            Debug.DrawRay(box.bounds.center, Vector2.right * (box.bounds.extents.x + 1f), color);
-            Debug.Log(rayhit.collider);
+            //Debug.DrawRay(box.bounds.center, Vector2.right * (box.bounds.extents.x + 1f), color);
+            //Debug.Log(rayhit.collider);
          
             return rayhit.collider != null;
         }
@@ -150,8 +156,8 @@ public class enemy1behavior : MonoBehaviour
 
             }
             else { color = Color.red; }
-            Debug.DrawRay(box.bounds.center, Vector2.left * (box.bounds.extents.x + 1f), color);
-            Debug.Log(rayhit.collider);
+            //Debug.DrawRay(box.bounds.center, Vector2.left * (box.bounds.extents.x + 1f), color);
+            //Debug.Log(rayhit.collider);
 
             return rayhit.collider != null;
         }
