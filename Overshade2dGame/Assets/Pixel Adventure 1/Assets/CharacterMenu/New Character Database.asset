@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: New Character Database
   m_EditorClassIdentifier: 
   character:
-  - characterName: Masky
-    characterSprite: {fileID: 21300000, guid: e7b5b7e8d4b62d346908d278cdf69f5a, type: 3}
-  - characterName: Frogy
-    characterSprite: {fileID: 21300000, guid: 2e35e8719a5c2434c9027d167c5280d4, type: 3}
-  - characterName: Ninja
-    characterSprite: {fileID: 21300000, guid: 8f9f00c0815bfde43854e08986bfddbb, type: 3}
   - characterName: Astro
-    characterSprite: {fileID: 21300000, guid: 87a942f7dc57305479263b6de861bf94, type: 3}
+    characterSprite: {fileID: 21300000, guid: 812a5f166c64df746a5803f510656005, type: 3}
+  - characterName: Masky (NOT AVAILABLE)
+    characterSprite: {fileID: 21300000, guid: e7b5b7e8d4b62d346908d278cdf69f5a, type: 3}
+  - characterName: Frogy (NOT AVAILABLE)
+    characterSprite: {fileID: 21300000, guid: 2e35e8719a5c2434c9027d167c5280d4, type: 3}
+  - characterName: Ninja  (NOT AVAILABLE)
+    characterSprite: {fileID: 21300000, guid: 8f9f00c0815bfde43854e08986bfddbb, type: 3}

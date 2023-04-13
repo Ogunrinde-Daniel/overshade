@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/CSMenu.unity
     guid: 6f44d5638666ecb4ca25e5f2f85a8beb
   - enabled: 1
+    path: Assets/Scenes/O_Level1.unity
+    guid: f447a4a4c9f9a1a4a8195fc7249f0934
+  - enabled: 1
+    path: Assets/Scenes/O_Level12.unity
+    guid: 51d042ed27476de468fe5fa6e81971cd
+  - enabled: 1
+    path: Assets/Updated Manual FightScene/U_Scenes/U_Fight_Level.unity
+    guid: 269c9f2d59bb07b4980669d93acf142d
+  - enabled: 0
+    path: Assets/Scenes/Level1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
     path: Assets/Scenes/O_Level0.unity
     guid: 5943ecc3600bcb145997d169e3d98bac
   m_configObjects: {}
