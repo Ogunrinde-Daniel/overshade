@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CSMenu.unity
     guid: 6f44d5638666ecb4ca25e5f2f85a8beb
   - enabled: 1
-    path: Assets/Scenes/leve_concept.unity
+    path: Assets/Scenes/O_Level0.unity
     guid: 5943ecc3600bcb145997d169e3d98bac
   m_configObjects: {}
