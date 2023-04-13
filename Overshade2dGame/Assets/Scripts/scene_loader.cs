@@ -6,16 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class scene_loader : MonoBehaviour
 {
-    public void loadscene() 
-    {
-        SceneManager.LoadScene("leve_concept");
-
-    }
-
+    public GameObject secondPart; 
+    public GameObject Bg;
+    public GameObject firstPart;
     public void loadScene(int no)
     {
         SceneManager.LoadScene(no);
     }
 
+
+    public void startGame()
+    {
+        Bg.SetActive(false);
+        firstPart.SetActive(false);
+        secondPart.SetActive(true);
+    }
 
 }
